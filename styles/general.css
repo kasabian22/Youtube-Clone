@@ -13,3 +13,12 @@ p {
     font-style: normal;
     margin-left: 4px;
 }
+
+a {
+    color: black;
+    text-decoration-line: none;
+}
+
+a:active {
+    color: black;
+}
