@@ -24,15 +24,14 @@
 }
 
 .hamburger-menu {
-    width: 30px;
-    margin-left: 30px;
-    margin-right: 30px;
-    margin-top: 5px;
+    width: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+    cursor: pointer;
 }
 
 .youtube-logo {
-    width: 110px;
-    margin-top: 5px;
+    width: 90px;
 }
 
 .middle-section {
@@ -47,7 +46,7 @@
 .search-bar {
     flex: 1;
     width: 0;
-    height: 30px;
+    height: 40px;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(180, 180, 180);
@@ -64,14 +63,22 @@
 }
 
 .search-icon-btn {
-    height: 34px;
-    width: 50px;
+    height: 40px;
+    width: 60px;
     margin-right: 10px;
     padding-top: 3px;
     margin-left: -1px;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(180, 180, 180);
+    cursor: pointer;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    height: 70px;
 }
 
 .search-icon-btn,
@@ -115,7 +122,7 @@
 }
 
 .search-icon-img {
-    width: 20px;
+    width: 25px;
 }
 
 .voice-search-icon {
@@ -124,6 +131,7 @@
     border-radius: 50%;
     border-width: 0;
     padding-left: 5px;
+    cursor: pointer;
 }
 
 .voice-search-icon-img {
@@ -142,18 +150,22 @@
 
 .upload-icon {
     height: 24px;
+    cursor: pointer;
 }
 
 .youtube-apps-icon {
     height: 24px;
+    cursor: pointer;
 }
 
 .notifications-icon {
     height: 24px;
+    cursor: pointer;
 }
 
 .notifications-container {
     position: relative;
+    cursor: pointer;
 }
 
 .notifications-count {
@@ -174,4 +186,5 @@
 .my-channel-icon {
     height: 32px;
     border-radius: 50%;
+    cursor: pointer;
 }
